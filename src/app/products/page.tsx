@@ -1,6 +1,6 @@
 "use client";
 
-import { useSearchParams, useRouter } from "next/navigation";
+import { useRouter } from "next/navigation";
 import React, { useMemo, useState } from "react";
 import { format } from "date-fns";
 import {
@@ -11,8 +11,6 @@ import {
     ColumnDef,
 } from "@tanstack/react-table";
 import {
-    Card,
-    CardContent,
     Table,
     TableBody,
     TableCell,
