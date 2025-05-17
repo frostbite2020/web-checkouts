@@ -1,8 +1,46 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Product Listing Web App
+
+This is a responsive two-page web application built with **Next.js**. It features:
+
+- **Product List Page**: Displays a list of products in a responsive table layout with filter functionality.
+- **Product Detail Page**: Shows detailed information about a selected product.
+
+## Features
+
+- 🧾 **Product Table**: View products in a responsive table powered by **TanStack Table**.
+- 🔍 **Filter Support**: Filter products based on various criteria.
+- 📱 **Responsive Design**: Works smoothly on both desktop and mobile devices.
+- ⚛️ **React Query (TanStack Query)**: Efficient data fetching, caching, and synchronization.
+- 🎨 **Tailwind CSS**: Utility-first CSS for rapid UI development.
+- 🧩 **Material UI (MUI)**: Clean and accessible UI components.
+
+## Tech Stack
+
+- [Next.js](https://nextjs.org/) – React framework for server-side rendering and routing
+- [React Query (TanStack Query)](https://tanstack.com/query) – For managing server state and data fetching
+- [TanStack Table](https://tanstack.com/table) – Headless UI for managing tables
+- [Tailwind CSS](https://tailwindcss.com/) – Utility-first CSS framework
+- [Material UI (MUI)](https://mui.com/) – UI component library
 
 ## Getting Started
 
-First, run the development server:
+Follow these steps to run the app on your local machine:
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/frostbite2020/web-checkouts.git
+
+cd web-checkouts
+
+npm install
+# or
+yarn install
+# or
+pnpm install
+# or
+bun install
+```
+run the development server:
 
 ```bash
 npm run dev
